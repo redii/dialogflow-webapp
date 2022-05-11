@@ -109,11 +109,11 @@
     @media (min-width: 767px) {
         .chat {
             max-width: 600px;
-            height: 800px;
+            height: 800px !important;
         }
 
         .chat-content-wrapper {
-            height: 600px;
+            height: 600px !important;
         }
     }
 
