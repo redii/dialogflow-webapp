@@ -4,16 +4,11 @@
 </script>
 
 <main>
-    <Row>
-        <Col>
-            <Chat />
-        </Col>
-    </Row>
+    <Chat />
 </main>
 
 <style>
     main {
-        padding: 2em;
         max-width: 1200px;
         margin: 0 auto;
     }
