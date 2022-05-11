@@ -4,7 +4,7 @@
     const bot = {
         name: "Max Mustermann",
         image: "https://i.ibb.co/d29TyqJ/man-wearing-headset-giving-online-chat-support-attractive-unshaven-young-offering-client-services-he.jpg",
-        url: `https://dialogflow-backend.capr.hand.group`,
+        url: "https://dialogflow-backend.capr.hand.group",
     }
     let botTyping = false
     let messages = []
