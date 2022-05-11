@@ -161,7 +161,7 @@
     }
 
     .chat-message {
-        padding: 1em;
+        padding: 1em 1.5em;
         border-radius: 24px;
     }
 
