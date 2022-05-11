@@ -106,13 +106,22 @@
 </div>
 
 <style>
+    @media (min-width: 767px) {
+        .chat {
+            max-width: 600px;
+            height: 800px;
+        }
+
+        .chat-content-wrapper {
+            height: 600px;
+        }
+    }
+
     .chat {
         position: relative;
-        min-width: 400px;
-        max-width: 600px;
-        height: 800px;
         border: 2px solid black;
         border-radius: 16px;
+        height: calc(100vh - 1em);
     }
 
     .chat-header {
@@ -143,7 +152,7 @@
     }
 
     .chat-content-wrapper {
-        height: 600px;
+        height: calc(100% - 200px);
         overflow: auto;
         display: flex;
         flex-direction: column-reverse;
