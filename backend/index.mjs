@@ -7,7 +7,10 @@ const df_url =
 
 const server = http.createServer(async (req, res) => {
     try {
-        res.setHeader("Access-Control-Allow-Origin", "http://localhost:8080")
+        res.setHeader(
+            "Access-Control-Allow-Origin",
+            "http://localhost:8080, https://redii.github.io/dialogflow-webapp"
+        )
         res.setHeader("Access-Control-Allow-Credentials", true)
         res.setHeader("Content-Type", "application/json")
 
