@@ -121,7 +121,7 @@
         position: relative;
         border: 2px solid black;
         border-radius: 16px;
-        height: calc(100vh - 1em);
+        height: calc(90vh - 1em);
     }
 
     .chat-header {
