@@ -24,7 +24,7 @@
             <ChatBot
                 botType="inclusive"
                 botName="Anushka"
-                botImage="images/anushka.png"
+                botImage="https://i.ibb.co/hgXR1qq/anushka.png"
                 fontFamily="Arial"
                 fontSize="20px"
                 fontColorBot="black"

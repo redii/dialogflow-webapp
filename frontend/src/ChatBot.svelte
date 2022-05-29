@@ -149,7 +149,7 @@
             class="chat-submit"
             on:click={() => sendMessage(input)}
             disabled={botTyping}>
-            <img src="images/send.png" alt="Send" />
+            <img src="https://i.ibb.co/fqwq9Y2/send.png" alt="Send" />
         </button>
     </div>
 </div>
