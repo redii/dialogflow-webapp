@@ -17,7 +17,7 @@ const server = http.createServer(async (req, res) => {
         res.setHeader("Content-Type", "application/json")
         var params = url.parse(req.url, true).query
 
-        const url = df_urls[params.bot]
+        const df_url = df_urls[params.bot]
         const query = {
             queryInput: {
                 text: {
@@ -27,7 +27,7 @@ const server = http.createServer(async (req, res) => {
             },
         }
 
-        const temp = await got.post(url, { json: query })
+        const temp = await got.post(df_url, { json: query })
         const result = JSON.parse(temp.request.response.body.substring(5))
 
         res.end(JSON.stringify(result))
