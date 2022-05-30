@@ -180,10 +180,13 @@
         width: 100%;
         height: 100px;
         background-color: var(--header-background-color);
+        overflow: auto;
+        white-space: nowrap;
     }
 
     .chat-header-image {
         float: left;
+        display: inline-block;
         height: 100%;
         margin: 0 1em;
     }
@@ -198,8 +201,8 @@
     }
 
     .chat-header-content {
-        float: left;
-        padding: 1em;
+        display: inline-block;
+        padding: 1em 0.5em;
     }
 
     .chat-header-name {
