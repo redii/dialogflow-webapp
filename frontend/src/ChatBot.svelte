@@ -264,6 +264,7 @@
         font-size: var(--font-size);
         padding: 0.75em;
         margin-left: 0.5em;
+        margin-top: 0.5em;
         border: 1px solid black;
         border-radius: 16px;
     }
