@@ -9,8 +9,7 @@
         <Col md={6}>
             <ChatBot
                 botType="default"
-                botName="Philipp Meier"
-                botStatus="Dekan der Fakultät Maschinenbau"
+                botName="Max Meier"
                 botImage="https://i.ibb.co/k4NF2wv/max.jpg"
                 typingWithName={false}
                 fontFamily="Times New Roman"

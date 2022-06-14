@@ -110,8 +110,14 @@
             {#each messages as msg}
                 <div class="chat-message-wrapper">
                     <div class={["chat-message", msg.user === botName ? "bot" : "user"].join(" ")}>
-                        <span>{msg.user}</span>:
-                        <p>{msg.text}</p>
+                        <div class="chat-message-name">
+                            <span>{msg.user}</span>:
+                        </div>
+                        <div class="chat-message-text">
+                            <pre>
+                                {msg.text.trim()}
+                            </pre>
+                        </div>
                         {#if msg.videos}
                             {#each msg.videos as videoID}
                                 <iframe
@@ -255,8 +261,12 @@
         font-weight: bolder;
     }
 
-    .chat-message p {
+    .chat-message pre {
         margin-bottom: 0;
+        font-family: inherit;
+        font-size: inherit;
+        text-align: left;
+        white-space: pre-line;
     }
 
     .chat-response {
