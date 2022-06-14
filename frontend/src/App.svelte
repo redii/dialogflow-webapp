@@ -11,6 +11,7 @@
                 botType="default"
                 botName="Philipp Meier"
                 botStatus="Dekan der Fakultät Maschinenbau"
+                typingWithName={false}
                 fontFamily="Times New Roman"
                 fontSize="14px"
                 headerBackgroundColor="lightgrey"
@@ -23,7 +24,7 @@
         <Col md={6}>
             <ChatBot
                 botType="inclusive"
-                botName="Anushka"
+                botName="Aylin"
                 botImage="https://i.ibb.co/hgXR1qq/anushka.png"
                 fontFamily="Arial"
                 fontSize="20px"

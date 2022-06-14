@@ -10,6 +10,7 @@
         botStatus = "Online",
         botImage = "https://i.ibb.co/d29TyqJ/man-wearing-headset-giving-online-chat-support-attractive-unshaven-young-offering-client-services-he.jpg",
         typingTime = 500,
+        typingWithName = true,
         fontFamily = "Helvetica",
         fontSize = "16px",
         fontWeight = "inherit",
@@ -132,7 +133,7 @@
             {#if botTyping}
                 <div class="chat-message-wrapper">
                     <div class="chat-message bot">
-                        <span>&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;{typingWithName ? botName : ""}...&nbsp;&nbsp;&nbsp;</span>
                     </div>
                 </div>
             {/if}
