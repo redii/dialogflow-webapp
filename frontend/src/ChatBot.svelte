@@ -5,7 +5,6 @@
 
     export let
         apiUrl = "https://dialogflow-backend.capr.hand.group",
-        // apiUrl = "http://localhost:3000",
         botType = "dev",
         botName = "Max Mustermann",
         botStatus = "Online",
