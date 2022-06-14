@@ -136,6 +136,9 @@
                     {/each}
                 {/if}
             {/each}
+            {#if !messages.length}
+                <button class="chat-response" on:click={() => sendMessage("Hallo 👋🏼")}>Hallo 👋🏼</button>
+            {/if}
             {#if botTyping}
                 <div class="chat-message-wrapper">
                     <div class="chat-message bot">
