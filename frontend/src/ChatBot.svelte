@@ -133,7 +133,7 @@
             {#if botTyping}
                 <div class="chat-message-wrapper">
                     <div class="chat-message bot">
-                        <span>&nbsp;&nbsp;&nbsp;{typingWithName ? botName : ""}...&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;{typingWithName ? `${botName} tippt...` : "..."}&nbsp;&nbsp;</span>
                     </div>
                 </div>
             {/if}
