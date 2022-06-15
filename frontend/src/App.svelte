@@ -9,7 +9,7 @@
         <Col md={6}>
             <ChatBot
                 botType="default"
-                botName="Dr. Wolfgang Zweistein"
+                botName="Dr. Franz Zweistein"
                 botImage="https://i.ibb.co/k4NF2wv/max.jpg"
                 startMessage="Hallo 👋🏻"
                 typingWithName={false}
