@@ -9,6 +9,7 @@
         botName = "Max Mustermann",
         botStatus = "Online",
         botImage = "https://i.ibb.co/d29TyqJ/man-wearing-headset-giving-online-chat-support-attractive-unshaven-young-offering-client-services-he.jpg",
+        startMessage = "Hallo 👋"
         typingTime = 500,
         typingWithName = true,
         fontFamily = "Helvetica",
@@ -137,7 +138,7 @@
                 {/if}
             {/each}
             {#if !messages.length}
-                <button class="chat-response" on:click={() => sendMessage("Hallo 👋🏼")}>Hallo 👋🏼</button>
+                <button class="chat-response" on:click={() => sendMessage(startMessage)}>{startMessage}</button>
             {/if}
             {#if botTyping}
                 <div class="chat-message-wrapper">

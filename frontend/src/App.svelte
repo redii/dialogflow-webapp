@@ -9,8 +9,9 @@
         <Col md={6}>
             <ChatBot
                 botType="default"
-                botName="Max Meier"
+                botName="Dr. Wolfgang Zweistein"
                 botImage="https://i.ibb.co/k4NF2wv/max.jpg"
+                startMessage="Hallo 👋🏻"
                 typingWithName={false}
                 fontFamily="Times New Roman"
                 fontSize="14px"
