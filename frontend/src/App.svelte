@@ -5,9 +5,10 @@
 <main>
     <Row>
         <Col md={{ size: 6, offset: 3 }}>
-            <h1>Chatbot Vergleich</h1>
-            <a href="/chatbot-1.html">Default ChatBot</a>
-            <a href="/chatbot-2.html">Inclusive ChatBot</a>
+            <h1>Chatbots</h1>
+            <a href="/dialogflow-webapp/chatbot-1.html">Default ChatBot</a>
+            <br />
+            <a href="/dialogflow-webapp/chatbot-2.html">Inclusive ChatBot</a>
         </Col>
     </Row>
 </main>
