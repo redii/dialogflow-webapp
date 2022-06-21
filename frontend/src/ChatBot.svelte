@@ -121,6 +121,7 @@
                         </div>
                         {#if msg.videos}
                             {#each msg.videos as videoID}
+                                <br/>
                                 <iframe
                                     title="YouTube Video"
                                     width={300}
