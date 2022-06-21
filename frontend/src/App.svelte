@@ -14,7 +14,7 @@
                 <ChatBot
                     botType="default"
                     botName="Dr. Franz Zweistein"
-                    botImage="https://i.ibb.co/k4NF2wv/max.jpg"
+                    botImage="https://i.ibb.co/khnf038/i-Stock-1219861592.jpg"
                     startMessage="Hallo 👋🏻"
                     typingWithName={false}
                     fontFamily="Times New Roman"
@@ -30,7 +30,7 @@
                 <ChatBot
                     botType="inclusive"
                     botName="Aylin"
-                    botImage="https://i.ibb.co/5L02hP2/aylin.jpg"
+                    botImage="https://i.ibb.co/2h2NqYF/i-Stock-1316235280.jpg"
                     fontFamily="Arial"
                     fontSize="20px"
                     fontColorBot="black"
@@ -40,11 +40,9 @@
                 />
             {:else}
                 <h1>Chatbots</h1>
-                <a href="/dialogflow-webapp/?bot=default">Default ChatBot</a>
+                <a href="/dialogflow-webapp/?bot=1">Default ChatBot</a>
                 <br />
-                <a href="/dialogflow-webapp/?bot=inclusive">
-                    Inclusive ChatBot
-                </a>
+                <a href="/dialogflow-webapp/?bot=2">Inclusive ChatBot</a>
             {/if}
         </Col>
     </Row>
