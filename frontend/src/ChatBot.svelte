@@ -4,7 +4,7 @@
     import { v4 as uuid } from 'uuid'
 
     export let
-        apiUrl = "https://dialogflow-backend.capr.hand.group",
+        apiUrl = "https://dialogflow-backend.akmnn.de",
         botType = "dev",
         botName = "Max Mustermann",
         botStatus = "Online",
