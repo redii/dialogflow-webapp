@@ -5,11 +5,12 @@
 <Chatbot
 	botType="ben_inkl"
 	botName="Ben"
-	botImage="https://i.ibb.co/2h2NqYF/i-Stock-1316235280.jpg"
+	botImage="/images/ben_inkl.jpeg"
 	fontFamily="Arial"
 	fontSize="20px"
 	fontColorBot="black"
 	fontColorUser="black"
 	bubbleColorBot="#bccee1"
 	bubbleColorUser="#b0efb0"
+	headerBackgroundColor="rgb(243 244 246)"
 />

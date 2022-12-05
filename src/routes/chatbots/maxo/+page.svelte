@@ -5,11 +5,12 @@
 <Chatbot
 	botType="maxo"
 	botName="Max"
-	botImage="https://i.ibb.co/2h2NqYF/i-Stock-1316235280.jpg"
+	botImage="/images/max.jpeg"
 	fontFamily="Arial"
 	fontSize="20px"
 	fontColorBot="black"
 	fontColorUser="black"
 	bubbleColorBot="#bccee1"
 	bubbleColorUser="#b0efb0"
+	headerBackgroundColor="rgb(243 244 246)"
 />
