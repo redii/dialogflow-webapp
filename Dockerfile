@@ -1,5 +1,7 @@
-FROM node:17.4.0-alpine
-COPY ./backend /tmp/backend
-WORKDIR /tmp/backend
+FROM node:16.15.1-alpine
+
+COPY . /tmp/app
+WORKDIR /tmp/app
 RUN npm install
-CMD ["npm", "start"]
+RUN npm run build
+CMD ["node", "build"]
