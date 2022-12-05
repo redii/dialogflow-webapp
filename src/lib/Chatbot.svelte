@@ -4,7 +4,6 @@
     import { v4 as uuid } from 'uuid'
 
     export let
-        apiUrl = "http://localhost:3000",
         botType = "dev",
         botName = "Max Mustermann",
         botStatus = "Online",
