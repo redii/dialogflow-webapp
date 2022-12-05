@@ -4,11 +4,6 @@
     import { v4 as uuid } from 'uuid'
 
     export let
-<<<<<<< HEAD:frontend/src/ChatBot.svelte
-        apiUrl = "https://dialogflow-backend.akmnn.de",
-=======
-        apiUrl = "http://localhost:3000",
->>>>>>> ebb4d0e (rewrite to sveltekit):src/lib/Chatbot.svelte
         botType = "dev",
         botName = "Max Mustermann",
         botStatus = "Online",
