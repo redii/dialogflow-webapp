@@ -1,4 +1,4 @@
-<main class="container mx-auto py-12">
+<main class="container mx-auto px-2 py-12">
 	<h1 class="text-xl mb-2">Chatbots</h1>
 	<ul>
 		<li><a href="/chatbots/max" class="text-blue-500">Max</a></li>
